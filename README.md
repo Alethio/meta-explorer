@@ -1,10 +1,27 @@
-Alethio Gitcoin Bounties
-========================
+# alethio-contract-monitor
 
-Alethio is a comprehensive suite of blockchain exploration and analytics products for the Ethereum network. We're on a mission of making Ethereum more transparent and accessible to everybody.
+> Simple monitor for Ethereum smart contracts
 
-We've recently launched our API as a direct way for developers to get real-time access to synthesised, indexed on-chain data in a robust and reliable way. We're looking to support and accelerate the growth of a new wave of Ethereum-powered tools, products and services and we need your help with building awesome, useful products for the Ethereum community by making use of the Alethio API to handle enriched, aggregated on-chain data in ways that haven't been possible before.
+## Build Setup
 
-We are strong believers in open source and decentralization - so we've also released our open-source suite, comprised of the Ethereum Lite Explorer and the EthStats network monitor - two powerful tools for monitoring the activity of any Ethereum-like (private/dev or public) network. We need your help with creating additional documentation that will ultimately make these tools more easily accessible to the community.
+``` bash
+# install dependencies
+npm install
 
-Happy hacking!
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+## Usage
+
+Usage is as simple as entering a Ethereum contract address in the top search bar.
+
+A few recommended contract address:
+
+1. EtherDelta `0x8d12A197cB00D4747a1fe03395095ce2A5CC6819`
+2. EOS `0x86Fa049857E0209aa7D9e616F7eb3b3B78ECfdb0`
+3. CryptoKitties `0x06012c8cf97BEaD5deAe237070F9587f8E7A266d`
+4. Tron `0xf230b790E05390FC8295F4d3F60332c93BEd42e2`
+5. Bittrex `0xa3C1E324CA1ce40db73eD6026c4A177F099B5770`

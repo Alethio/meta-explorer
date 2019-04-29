@@ -1,10 +1,31 @@
-Alethio Gitcoin Bounties
-========================
+#alethio-freestyle api
 
-Alethio is a comprehensive suite of blockchain exploration and analytics products for the Ethereum network. We're on a mission of making Ethereum more transparent and accessible to everybody.
+> client-side app to monitor an ETH account using Alethio API.
+(https://api.aleth.io/v1/docs#)
 
-We've recently launched our API as a direct way for developers to get real-time access to synthesised, indexed on-chain data in a robust and reliable way. We're looking to support and accelerate the growth of a new wave of Ethereum-powered tools, products and services and we need your help with building awesome, useful products for the Ethereum community by making use of the Alethio API to handle enriched, aggregated on-chain data in ways that haven't been possible before.
+## Setup and Run
 
-We are strong believers in open source and decentralization - so we've also released our open-source suite, comprised of the Ethereum Lite Explorer and the EthStats network monitor - two powerful tools for monitoring the activity of any Ethereum-like (private/dev or public) network. We need your help with creating additional documentation that will ultimately make these tools more easily accessible to the community.
+```
+npm i
+```
+```
+tsc
+```
+```
+npm start
+```
 
-Happy hacking!
+## Further development
+
+This app runs with Typescript and webpack-dev-server. 
+The best for development is to have three terminals open. In one, we run webpack-dev-server with `npm start`. In the second one we transpile automatically any changes in our root ts files with `tsc -w`. In the third one we transpile and minify the app.ts file also automatically with `webpack -w`. The webpack-dev-server will also restart by itself every time it detects these changes.
+
+## Usage
+
+Go to http://localhost:8080 and enter in the input box the ETH account you would like to monitor.
+
+## Recommended Accounts:
+
+Good to check the transactions chart: `0xd73953bc13c031459f3856a9a5adce36bed18fdc`
+
+Good to check the contract messages: `0x4Cf890695E2188a124495EbC3b1Ec6341F21C9CF`

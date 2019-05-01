@@ -5,6 +5,9 @@ SmartPiggies
 An open source standard for a free peer-to-peer global derivatives market.
 -
 
+### The initial work for this submission was done in this [repo](https://github.com/smartpiggies/amerigo/tree/master/explorer2): please view it for proof of commits to the work process.
+
+
 SmartPiggies are non-fungible digital contracts that provide their owners with protection against undesirable changes in the price of any asset, product, or service. They also have a native self-auctioning mechanism that allows them to globally market themselves, eliminating the need for exchanges.
 
 Historically, centralized authorities and rent collecting intermediaries have been critical due the trust and guarantees they inject into modern financial commitments. Today, with the guarantees provided by the Ethereum network and recent innovations provided by the global community, it is now possible to create robust programmable digital assets with linked to the real world, yet have no dependencies on centralized authorities or intermediaries.

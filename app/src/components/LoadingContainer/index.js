@@ -2,7 +2,7 @@ import { drizzleConnect } from 'drizzle-react'
 import React, { Children, Component } from 'react'
 import PropTypes from 'prop-types'
 
-import logo from '../../Assets/Logo/logo.png'
+import logo from '../../Assets/Logo/piggieface_02.png'
 /*
  * Create component.
  */
@@ -56,8 +56,10 @@ class LoadingContainer extends Component {
         <div className="App">
         <img src={logo} alt="SmartPiggies-logo" />
           <div className="section">
-            <h1>Loading SmartPiggies</h1>
-            <p>Loading dapp...</p>
+            <h1>Loading Amerigo...on Goerli</h1>
+              <p>Amerigo, the SmartPiggies explorer is currently running on the Goerli network.</p>
+                <p>If this page hangs, make sure the browser has access to the Goerli testnet.</p>
+                  <p>[switch to the Goerli network in MetaMask.]</p>
           </div>
         </div>
     )
